@@ -15,3 +15,7 @@ For install axios (good for api's)
 ### `npm start`
 
 For start a server
+
+### `npm i`
+
+For install `node_modules` in directory
