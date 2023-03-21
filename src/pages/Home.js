@@ -3,10 +3,14 @@ import Navigation from "../components/Navigation";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-page">
       <Navigation />
-      <h1>Bienvenue {":)"}</h1>
-      <p>vous pouvez commencer à coder</p>
+      <main>
+        <div className="Hello">
+          <h1 className="animate-text">Bienvenue {":)"}</h1>
+          <p className="animate-text">vous pouvez commencer à coder</p>
+        </div>
+      </main>
     </div>
   );
 };

@@ -5,6 +5,9 @@ $color-2: salmon;
 $color-3: #282c34;
 $white: rgb(243, 243, 243);
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 @mixin verticalCenter {
   display: flex;
   justify-content: center;
@@ -15,6 +18,8 @@ $white: rgb(243, 243, 243);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 body {
@@ -24,4 +29,9 @@ body {
 }
 li {
   list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }

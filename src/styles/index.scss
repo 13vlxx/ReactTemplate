@@ -1,4 +1,7 @@
 //* Import your scss components here
 // @import "./components/xxx"; 
 @import "./settings";
-@import "./components/navigation"
+@import "./components/navigation";
+@import "./pages/home";
+@import "./pages/help";
+@import "./pages/error";

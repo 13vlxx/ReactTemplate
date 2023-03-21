@@ -1,5 +1,7 @@
 # React simple template with routes and axios
 
+<img src="./public/13VLXXTemplate.png">
+
 ## Available Scripts
 
 In the project directory, you can run:

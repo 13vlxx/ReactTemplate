@@ -1,0 +1,76 @@
+.help-page{
+
+    main {
+        background-color: #55969e;
+        height: 91vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Help-list{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        li {
+            padding: 2rem;
+        }
+        span {
+            color: white;
+        }
+
+        color: white;
+        a {
+            color: blue;
+        }
+    }
+
+    .animate-h1
+      {
+         text-transform: uppercase;
+        background-image: linear-gradient(
+          -225deg,
+          #231557 0%,
+          #44107a 29%,
+          #ff1361 67%,
+          #fff800 100%
+        );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+            font-size: 8rem;
+        }
+
+    .animate-text
+    {
+      background-image: linear-gradient(
+        -225deg,
+        #00baff 0%,
+        #ff90ff 29%,
+        #ffa3b1 67%,
+        #e1ffa9 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+          /* font-size: 190px; */
+      }
+
+
+}
